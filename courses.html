@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="courses.css">
+    <script src="courses.js"></script>
+    <title>Document</title>
+</head>
+<body>
+
+    <header class="page-header">
+        <nav class="page-header__bottom">
+          <ul id="navigation" class="navigation">
+            <li class="navigation__item" onclick="home()">Home</li>
+            <li class="navigation__item" onclick="about()">About</li>
+            <li class="navigation__item" onclick="courses()">Courses</li>
+
+            <li class="navigation__item" onclick="review()">Reviews</li>
+            <li class="navigation__item" onclick="contact()">Contact</li>
+          </ul>
+        </nav>
+      </header>
+      
+
+    <div class="responsive-container">
+		<div class="grid">
+			<div class="grid-column">
+				<a class="product" onclick="java()">
+					<div class="product-image">
+						<img src="images/java.png" />
+					</div>
+					<div class="product-content">
+						<div class="product-info">
+							<h2 class="product-title">Java Programming</h2>
+							<p class="product-price">Click for more details</p>
+						</div>
+					</div>
+				</a>
+
+				<a class="product" onclick="javascript()">
+					<div class="product-image">
+						<img src="images/javascript.png" />
+					</div>
+					<div class="product-content">
+						<div class="product-info">
+							<h2 class="product-title">Javascript Programming</h2>
+							<p class="product-price">Click for more details</p>
+						</div>
+					</div>
+				</a>
+				<a class="product" onclick="web_dev()">
+					<div class="product-image">
+							<img src="images/web dev.png" />
+					</div>
+					<div class="product-content">
+						<div class="product-info">
+							<h2 class="product-title">Web Development Simplified</h2>
+							<p class="product-price">Click for more details</p>
+						</div>
+					</div>
+				</a>
+                <a class="product" onclick="selenium()">
+					<div class="product-image">
+						<img src="images/selenium.png" />
+					</div>
+					<div class="product-content">
+						<div class="product-info">
+							<h2 class="product-title">Selenium with Python</h2>
+							<p class="product-price">Click for more details</p>
+						</div>
+					</div>
+				</a>
+				<a class="product" onclick="powershell()">
+					<div class="product-image">
+						<img src="images/powershell.png" />
+					</div>
+					<div class="product-content">
+						<div class="product-info">
+							<h2 class="product-title">Powershell</h2>
+							<p class="product-price">Click for more details</p>
+						</div>
+					</div>
+				</a>
+			</div>
+			<div class="grid-column">
+				<a class="product" onclick="python()">
+					<div class="product-image">
+						<img src="images/python.jpeg" />
+					</div>
+					<div class="product-content">
+						<div class="product-info">
+							<h2 class="product-title">Python Programming</h2>
+							<p class="product-price">Click for more details</p>
+						</div>
+					</div>
+				</a>
+				<a class="product" onclick="r()">
+					<div class="product-image"> 
+						<img src="images/r.jpg" />
+					</div>
+					<div class="product-content">
+						<div class="product-info">
+							<h2 class="product-title">R Programming</h2>
+							<p class="product-price">Click for more details</p>
+						</div>
+					</div>
+				</a>
+				<a class="product" onclick="flask()">
+					<div class="product-image">
+						<img src="images/flas.png" />
+					</div>
+					<div class="product-content">
+						<div class="product-info">
+							<h2 class="product-title">Python + Flask Development</h2>
+							<p class="product-price">Click for more details</p>
+						</div>
+					</div>
+				</a>
+                <a class="product" onclick="data_analysis()">
+					<div class="product-image">
+						<img src="images/data analysis.png" />
+					</div>
+					<div class="product-content">
+						<div class="product-info">
+							<h2 class="product-title">Data Analysis with Python</h2>
+							<p class="product-price">Click for more details</p>
+						</div>
+					</div>
+				</a>
+			</div>
+			<div class="grid-column">
+				<a class="product" onclick="cpp()">
+					<div class="product-image">
+						<img src="images/c++.jpg" />
+					</div>
+					<div class="product-content">
+						<div class="product-info">
+							<h2 class="product-title">C++ Programming</h2>
+							<p class="product-price">Click for more details</p>
+						</div>
+					</div>
+				</a>
+				<a class="product" onclick="data_structure()">
+					<div class="product-image">
+						<img src="images/python data structure.png" />
+					</div>
+					<div class="product-content">
+						<div class="product-info">
+							<h2 class="product-title">Data Structures with Python</h2>
+							<p class="product-price">Click for more details</p>
+						</div>
+					</div>
+				</a>
+                <a class="product" onclick="django()">
+					<div class="product-image">
+						<img src="images/django.jpg" />
+					</div>
+					<div class="product-content">
+						<div class="product-info">
+							<h2 class="product-title">Python + Django Development</h2>
+							<p class="product-price">Click for more details</p>
+						</div>
+					</div>
+				</a>
+                <a class="product" onclick="">
+					<div class="product-image">
+						<img src="images/data science.jpeg" />
+					</div>
+					<div class="product-content">
+						<div class="product-info">
+							<h2 class="product-title">Data Science Beginner Friendly</h2>
+							<p class="product-price">Click for more details</p>
+						</div>
+					</div>
+				</a>
+			</div>
+		</div>
+	</div>
+	<div class="credits">
+		<div class="responsive-container">
+		<h3>Illustrations by Abhijeet</h3>
+		</div>
+	</div>
+
+</body>
+</html>
